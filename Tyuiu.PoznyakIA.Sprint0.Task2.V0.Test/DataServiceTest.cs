@@ -12,7 +12,7 @@ namespace Tyuiu.PoznyakIA.Sprint0.Task2.V0.Test
         public void CheckGetMessageValid()
         {
             var name = "Игорь";
-            var res = DagtaService.GetMessae(name);
+            var res = DataService.GetMessage(name);
 
             Assert.AreEqual("Привет, Игорь", res);
         
