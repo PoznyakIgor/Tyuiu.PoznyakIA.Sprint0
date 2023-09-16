@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.PoznyakIA.Sprint0.Task4.V0.Lib;
+using Tyuiu.PoznyakIA.Sprint0.Task5.V0.Lib;
 
-namespace Tyuiu.PoznyakIA.Sprint0.Task4.V0.Test
+namespace Tyuiu.PoznyakIA.Sprint0.Task5.V0.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -14,7 +14,7 @@ namespace Tyuiu.PoznyakIA.Sprint0.Task4.V0.Test
             Assert.AreEqual(10, DataService.Addition(5, 5));
         }
         [TestMethod]
-        public void CheckedSubtractionValid()
+        public void CheckedSubstractionValid()
         {
             Assert.AreEqual(5, DataService.Subtraction(10, 5));
         }
